@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<h3><b><u> Saylani Mass IT Training Program Registration Form:</u></b></h3>
+<body>
+    <form>
+    
+<fieldset>
+    <legend> <b><u>Personal Details:</u></b></legend>
+<label> <b>Full Name:</b>
+    <input type="text" name="Full Name" size="15" maxlength="30" /> 
+</label>
+<label><b> Phone Number:</b>
+    <input type="number" name="phone number" maxlength="11">
+</label>
+<p><b>CNIC:</b>
+    <input type="text" name="CNIC" /></p>
+<label><b> Father Name:</label>
+    <input type="text" name="Father name" maxlength="30"/></label>
+
+    <label><b>Father's CNIC (optional):</b>
+        <input type="text" name="Father's CNIC">
+    </label>
+
+
+<p><b>Email:</b>
+    <input type="email" name="Email" />
+</p>
+</fieldset>
+
+<p><b>Select City:</b></p>
+<select name="City">
+    <option value="Karcahi"> Karachi </option>
+    <option value="lahore"> Lahore</option>
+<option value="Islamabad"> Islamabad</option>
+<option value="Gujranwala"> Gugranwala</option>
+<option value="Hyderabad"> hyderabad</option>
+<option value="Sukkhur"> Sukkhur</option>
+<option value="Peshawar"> Peshawar</option>
+<option value="Quetta"> Quetta </option>
+</select>
+<label<b>Select course or event:</label>
+    <select name="Select Course ">
+    <option value="Web and mobile app development"> Web and mobile app development</option>
+    <option value="python programming" >Python Programming</option>
+    <option value="Digital marketing"> Digital marketing</option>
+    <option value="Graphic designing"> Graphic Designing</option>
+    <option value="VFX and Animation"> VFX and Animation</option>
+    <option value="Artificial Intelligence"> Artificial Intelligence</option>
+    <option value="Cybersecurity"> cybersecurity</option>
+    <option value="Data analysis"> Data Analysis</option>
+    <option value="Web designing"> Web Designing</option>  
+</select>
+
+    <p><b> Date Of Birth:</b>
+    <label for="Date Of Birth"></label>
+        <input type="date" name="Date" /></p>
+        <p> <b>Select Gender:</b>
+            <input type="radio" name="Gender"> Male
+            <input type="radio" name="Gender"> Female
+        </p>
+        <p><b> Address:</b>
+            <input type="text" name="Address" size="50" />
+        </p>
+        <p> <b>Last Qualification: </b>
+            <input type="Text" size="30" />
+        </p>
+        <p><b> Do you have a laptop?</b>
+            <input type="radio" name="option" /> Yes
+            <input type="radio" name="option" /> No
+        </p>
+       <hr />
+    <p><b> Please upload your image:</b>
+        <input class="file-upload-input" type="file" onchange="readURL(this)" accept="image">
+        <br /><br />
+    <input type="submit" name="submit"> 
+   
+</form>
+</body>
+</html>
